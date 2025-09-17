@@ -81,7 +81,7 @@ To confirm this, let's open WSL and type `nrfjprog --com` and should display som
 
 `<device_id>    /dev/tty<port>   VCOM<num>`
 
-## Flah device
+## Flash device
 
 on WSL, write the commands:
 ```bash
