@@ -14,7 +14,7 @@ This file is developed to install Zephyr and some essential tools like nrfjprog 
 ---
 
 ## Set up WSL
-To install WSL use the command  `wsl --install` and it will ask for UNIX name and password to initialize it. After that, write exit() on WSL.
+To install WSL use the command  `wsl --install` and it will ask for UNIX name and password to initialize it. After that, close the WSL prompt.
 
 Once installed and closed or if you have installed already, use the command on Power Shell:
 
