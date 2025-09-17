@@ -95,7 +95,7 @@ Finally, flash the program using `west flash --erase`
 
 ## Additional notes
 
-* If your using another device like `esp32s3_devkitc` the process to attach the device to WSL is the same but to identify the port use the command `lsusb`, showing something like this
+If your using another device like `esp32s3_devkitc` the process to attach the device to WSL is the same but to identify the port use the command `lsusb`, showing something like this
 
 `Bus 001 Device 004: ID bbbb:aaaa Silicon Labs CP210x UART Bridge`
 
@@ -107,6 +107,6 @@ and then give the permission using `sudo chmod 0666 /dev/ttyUSBX`. After that, j
 
 # Sources
 
-* [Zphyr Getting Started Guide](https://docs.zephyrproject.org/latest/develop/getting_started/index.html)
+* [Zephyr Getting Started Guide](https://docs.zephyrproject.org/latest/develop/getting_started/index.html)
 * [Install SEGGER J-Link](https://eclipse-embed-cdt.github.io/debug/jlink/install/)
 * [nRF Util](https://www.nordicsemi.com/Products/Development-tools/nRF-Util)
