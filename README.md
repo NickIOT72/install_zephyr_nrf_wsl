@@ -85,6 +85,7 @@ To confirm this, let's open WSL and type `nrfjprog --com` and should display som
 
 on WSL, write the commands:
 ```bash
+source ~/zephyrproject/.venv/bin/activate
 cd ~/zephyrproject/zephyr
 west build -p always -b <your-board-name> samples/basic/blinky
 ```
