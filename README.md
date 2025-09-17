@@ -104,3 +104,9 @@ To flash this device it's required to use find the port using `dmesg | grep tty`
 `[time] usb <bus_id>: cp210x converter now attached to ttyUSBX`
 
 and then give the permission using `sudo chmod 0666 /dev/ttyUSBX`. After that, just use `west flash --erase`
+
+# Sources
+
+* [Zphyr Getting Started Guide](https://docs.zephyrproject.org/latest/develop/getting_started/index.html)
+* [Install SEGGER J-Link](https://eclipse-embed-cdt.github.io/debug/jlink/install/)
+* [nRF Util](https://www.nordicsemi.com/Products/Development-tools/nRF-Util)
